@@ -1,0 +1,44 @@
+Sample Command : python.exe wordCount.py -i input.txt
+SAMPLE RESULT :
+
+
+Input file is : input.txt
+Total Words Count : 315
+Total Unique Words Count : 168
+Total Sentences Count : 16
+Average Sentence Length in Words : 19.69
+
+** Show list of words used (descending order) ** <--- ONLY SHOW TOP 5. Check input code in program to show all item
+-------------------------------------
+No.        Word                Count
+-------------------------------------
+1. and    20
+2. the    16
+3. python    15
+4. to    9
+5. language    6
+
+** Show list of words used (descending order) with Total count more than 8 **
+-------------------------------------
+No.        Word                Count
+-------------------------------------
+1. and    20
+2. the    16
+3. python    15
+4. to    9
+
+** Show list of phrases used with three or more words (descending order) ** <--- ONLY SHOW TOP 5. Check input code in program to show all item
+-------------------------------------
+No.        Word                Count
+-------------------------------------
+1. the python interpreter    3
+2. the python interpreter and    2
+3. python interpreter and    2
+4. in c or    2
+5. in c or c++    2
+
+** Show list of phrases used with three or more words (descending order) with Total count more than 2 **
+-------------------------------------
+No.        Word                Count
+-------------------------------------
+1. the python interpreter    3
